@@ -1,6 +1,4 @@
 #7-6记: 今天去面试碰到的题，手写实在难受，还是IDE懂我心，加油打工人!
-if __name__ == "__main__":
-    start()
 
 def start():
     print("\n设置十块钱,五块钱,两块钱的张数：(格式<hs>,<hw>,<he>)")
@@ -45,3 +43,5 @@ def calc(hs, hw, he, n):
     else:
         print('需要找零，只拥有%2d张十块钱，%d张五块钱，%d张两块钱' % (hs, hw, he))
         start()
+if __name__ == "__main__":
+    start()
